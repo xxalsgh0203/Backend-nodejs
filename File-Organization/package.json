@@ -1,0 +1,23 @@
+{
+  "name": "organize_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxalsgh0203/Backend-nodejs/tree/master/File-Organization"
+  },
+  "author": "",
+  "license": "ISC"
+}
