@@ -1,8 +1,12 @@
 import express from 'express'
 const app = express();
 
-app.get('/', (req, res, next) => {
+app.get('/sky:id', (req, res, next) => {
     console.log('get');
+    console.log(req.params);
+    console.log(req.params.id);
+    console.log(req.query);
+    console.log(req.query.keyword);
     res.send('Minho kim');
 });
 
